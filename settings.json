@@ -1,0 +1,51 @@
+{
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Fira Code', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontSize": 20,
+    "workbench.colorTheme": "Visual Studio Dark",
+    "workbench.iconTheme": "vscode-icons",
+    "vim.normalModeKeyBindingsNonRecursive": [
+    {
+        "before": ["u"],
+        "after": [],
+        "commands": [
+            {
+                "command": "undo",
+            }
+        ]
+        },
+        {
+            "before": [
+                "<C-r>"
+            ],
+            "after":[],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "vim.handleKeys": {
+        "<C-w>": false,
+        "<C-o>": false,
+        "<C-s>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-d>": true,
+
+    },
+    "vim.easymotion": true,
+    "vim.easymotionMarkerYOffset": 10,
+    "vim.easymotionMarkerWidthPerChar": 12,
+    "vim.easymotionMarkerFontSize": "20",
+    "vim.easymotionMarkerFontWeight": "bold",
+    "vim.leader": "space",
+    "vim.camelCaseMotion.enable": true,
+    "vim.sneak": true,
+    "vim.sneakUseIgnorecaseAndSmartcase": true,
+    "editor.minimap.enabled": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.mouseWheelZoom": true,
+    "vsicons.dontShowNewVersionMessage": true
+}
